@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container-fluid">
+        <div class="clock-content d-flex justify-content-center align-items-center">
+            <div class="content">
+            <div class="row">
+                <div class="col-12">
+                    <img src="clock.png" alt="" class="img-fluid img-responsive ">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-white">
+                    <h2 class="time">12:45:05</h2>
+                </div>
+            </div>
+            <div class="row w-100 alarm-set my-4 justify-content-center">
+                <div class="col-md-3 alarm bg-pirmary text-white hrs mx-md-1 mx-4 my-md-0 my-2">
+                    <select name="" id="hrs">
+                        <option value="Hours" selected hidden>Hours</option>
+                        
+                    </select>
+                </div>
+                <div class="col-md-3 alarm bg-pirmary mins mx-md-3 mx-4 mx-1 my-md-0 my-3">
+                    <select name="" id="min">
+                        <option value="Minutes" selected hidden>Minutes</option>
+                    </select>
+                </div>
+                <div class="col-md-3 alarm ampm mx-md-1 mx-4 my-md-0 my-2">
+                    <select name="" id="ampm">
+                        <option value="ampm" selected hidden>AM / PM</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row w-100 mt-4">
+                <div class="col-12">
+                <button class="btn btn-primary w-100">Set Alarm</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+     </div>
+    <script src="script.js"></script>
+</body>
+</html>
